@@ -1,0 +1,157 @@
+﻿Date;Region;Filère;Valeur (TWh)
+2014;"Île-de-France";"Production";3,319117962835
+2015;"Île-de-France";"Production";3,598052932027
+2016;"Île-de-France";"Production";3,723119028343
+2017;"Île-de-France";"Production";3,940137623889
+2018;"Île-de-France";"Production";3,28451173154
+2019;"Île-de-France";"Production";3,14395467545
+2020;"Île-de-France";"Production";3,308761861958
+2021;"Île-de-France";"Production";3,705134814982
+2022;"Île-de-France";"Production";3,97439382769
+2023;"Île-de-France";"Production";3,561325686012
+2024;"Île-de-France";"Production";3,181921919347
+2025;"Île-de-France";"Production";2,609802941094
+2014;"Centre-Val de Loire";"Production";80,51767840383
+2015;"Centre-Val de Loire";"Production";82,257642156666
+2016;"Centre-Val de Loire";"Production";78,660575714679
+2017;"Centre-Val de Loire";"Production";77,975763100668
+2018;"Centre-Val de Loire";"Production";77,933995757831
+2019;"Centre-Val de Loire";"Production";75,590236010498
+2020;"Centre-Val de Loire";"Production";70,347930012711
+2021;"Centre-Val de Loire";"Production";73,247203439512
+2022;"Centre-Val de Loire";"Production";67,71316559034
+2023;"Centre-Val de Loire";"Production";62,464087374793
+2024;"Centre-Val de Loire";"Production";75,879681600858
+2025;"Centre-Val de Loire";"Production";67,460430619243
+2014;"Bourgogne-Franche-Comté";"Production";2,043132189335
+2015;"Bourgogne-Franche-Comté";"Production";2,433156586669
+2016;"Bourgogne-Franche-Comté";"Production";2,761593707993
+2017;"Bourgogne-Franche-Comté";"Production";2,856152403002
+2018;"Bourgogne-Franche-Comté";"Production";3,425054366007
+2019;"Bourgogne-Franche-Comté";"Production";4,050443100992
+2020;"Bourgogne-Franche-Comté";"Production";4,164421845163
+2021;"Bourgogne-Franche-Comté";"Production";4,462364021171
+2022;"Bourgogne-Franche-Comté";"Production";4,541041649398
+2023;"Bourgogne-Franche-Comté";"Production";5,429241967882
+2024;"Bourgogne-Franche-Comté";"Production";5,319909471166
+2025;"Bourgogne-Franche-Comté";"Production";4,866949427427
+2014;"Normandie";"Production";76,767811544642
+2015;"Normandie";"Production";70,099370554691
+2016;"Normandie";"Production";64,18954943624
+2017;"Normandie";"Production";60,015259901768
+2018;"Normandie";"Production";66,042216796741
+2019;"Normandie";"Production";54,876281743077
+2020;"Normandie";"Production";47,836244350459
+2021;"Normandie";"Production";70,702836548412
+2022;"Normandie";"Production";48,751720234373
+2023;"Normandie";"Production";60,241885421614
+2024;"Normandie";"Production";67,320784620377
+2025;"Normandie";"Production";67,799593083603
+2014;"Hauts-de-France";"Production";43,031836046114
+2015;"Hauts-de-France";"Production";48,789172507756
+2016;"Hauts-de-France";"Production";45,610740798526
+2017;"Hauts-de-France";"Production";49,185374931477
+2018;"Hauts-de-France";"Production";51,799994011537
+2019;"Hauts-de-France";"Production";52,157635586293
+2020;"Hauts-de-France";"Production";54,996410155904
+2021;"Hauts-de-France";"Production";50,742709727965
+2022;"Hauts-de-France";"Production";51,627484939676
+2023;"Hauts-de-France";"Production";51,560187555836
+2024;"Hauts-de-France";"Production";50,504094463785
+2025;"Hauts-de-France";"Production";44,71595311052
+2014;"Grand Est";"Production";105,64650401653
+2015;"Grand Est";"Production";107,14486642138
+2016;"Grand Est";"Production";108,11598582117
+2017;"Grand Est";"Production";103,98113593001
+2018;"Grand Est";"Production";104,40149179575
+2019;"Grand Est";"Production";103,96258873239
+2020;"Grand Est";"Production";88,307606266725
+2021;"Grand Est";"Production";87,011506772048
+2022;"Grand Est";"Production";66,749650665692
+2023;"Grand Est";"Production";85,240696837099
+2024;"Grand Est";"Production";87,971954597318
+2025;"Grand Est";"Production";81,005035006162
+2014;"Pays de la Loire";"Production";5,411054472326
+2015;"Pays de la Loire";"Production";5,853365274017
+2016;"Pays de la Loire";"Production";6,075726616502
+2017;"Pays de la Loire";"Production";8,965401782485
+2018;"Pays de la Loire";"Production";7,11172593817
+2019;"Pays de la Loire";"Production";6,462837045519
+2020;"Pays de la Loire";"Production";6,552322006
+2021;"Pays de la Loire";"Production";8,218003381166
+2022;"Pays de la Loire";"Production";7,688454842695
+2023;"Pays de la Loire";"Production";7,634183538846
+2024;"Pays de la Loire";"Production";7,229862992373
+2025;"Pays de la Loire";"Production";7,727070571122
+2014;"Bretagne";"Production";2,761707814496
+2015;"Bretagne";"Production";3,134674838
+2016;"Bretagne";"Production";3,148723225659
+2017;"Bretagne";"Production";3,443842116338
+2018;"Bretagne";"Production";3,814150078841
+2019;"Bretagne";"Production";4,079918278835
+2020;"Bretagne";"Production";4,492225638834
+2021;"Bretagne";"Production";4,332661063326
+2022;"Bretagne";"Production";7,289837564145
+2023;"Bretagne";"Production";6,859471502795
+2024;"Bretagne";"Production";6,780579863042
+2025;"Bretagne";"Production";6,886739411446
+2014;"Nouvelle-Aquitaine";"Production";50,749689794926
+2015;"Nouvelle-Aquitaine";"Production";48,688262289414
+2016;"Nouvelle-Aquitaine";"Production";52,340969913007
+2017;"Nouvelle-Aquitaine";"Production";54,743645382742
+2018;"Nouvelle-Aquitaine";"Production";57,348095539568
+2019;"Nouvelle-Aquitaine";"Production";58,774097620097
+2020;"Nouvelle-Aquitaine";"Production";50,772385070652
+2021;"Nouvelle-Aquitaine";"Production";50,396929743095
+2022;"Nouvelle-Aquitaine";"Production";35,285122628344
+2023;"Nouvelle-Aquitaine";"Production";52,885272126584
+2024;"Nouvelle-Aquitaine";"Production";55,638717014427
+2025;"Nouvelle-Aquitaine";"Production";52,492519127573
+2014;"Occitanie";"Production";32,148986778119
+2015;"Occitanie";"Production";34,218797377132
+2016;"Occitanie";"Production";36,402817068516
+2017;"Occitanie";"Production";33,326999109519
+2018;"Occitanie";"Production";37,550620442935
+2019;"Occitanie";"Production";34,294551586633
+2020;"Occitanie";"Production";34,963629782755
+2021;"Occitanie";"Production";32,580559870654
+2022;"Occitanie";"Production";29,393153685012
+2023;"Occitanie";"Production";22,934174702536
+2024;"Occitanie";"Production";39,419249132182
+2025;"Occitanie";"Production";29,626511481781
+2014;"Auvergne-Rhône-Alpes";"Production";119,35936934395
+2015;"Auvergne-Rhône-Alpes";"Production";121,10193166868
+2016;"Auvergne-Rhône-Alpes";"Production";107,77876686546
+2017;"Auvergne-Rhône-Alpes";"Production";107,94862590241
+2018;"Auvergne-Rhône-Alpes";"Production";114,00992176129
+2019;"Auvergne-Rhône-Alpes";"Production";118,12502272724
+2020;"Auvergne-Rhône-Alpes";"Production";111,79546978608
+2021;"Auvergne-Rhône-Alpes";"Production";117,90791193939
+2022;"Auvergne-Rhône-Alpes";"Production";103,16232622607
+2023;"Auvergne-Rhône-Alpes";"Production";116,69325303011
+2024;"Auvergne-Rhône-Alpes";"Production";119,0900168782
+2025;"Auvergne-Rhône-Alpes";"Production";106,49113532218
+2014;"Provence-Alpes-Côte d'Azur";"Production";14,641192087055
+2015;"Provence-Alpes-Côte d'Azur";"Production";15,890408280474
+2016;"Provence-Alpes-Côte d'Azur";"Production";20,194618355752
+2017;"Provence-Alpes-Côte d'Azur";"Production";20,004302980424
+2018;"Provence-Alpes-Côte d'Azur";"Production";19,111346594026
+2019;"Provence-Alpes-Côte d'Azur";"Production";18,896932512591
+2020;"Provence-Alpes-Côte d'Azur";"Production";20,608832656844
+2021;"Provence-Alpes-Côte d'Azur";"Production";17,34571664997
+2022;"Provence-Alpes-Côte d'Azur";"Production";18,395214688114
+2023;"Provence-Alpes-Côte d'Azur";"Production";17,509653084863
+2024;"Provence-Alpes-Côte d'Azur";"Production";19,128146902963
+2025;"Provence-Alpes-Côte d'Azur";"Production";15,639310151147
+2014;"Corse";"Production";1,479555933
+2015;"Corse";"Production";1,535164428
+2016;"Corse";"Production";1,533000806
+2017;"Corse";"Production";1,602747978
+2018;"Corse";"Production";1,665849449
+2019;"Corse";"Production";1,612558287
+2020;"Corse";"Production";1,55146809
+2021;"Corse";"Production";1,740016597
+2022;"Corse";"Production";1,741360391667
+2023;"Corse";"Production";1,651788693648
+2024;"Corse";"Production";1,635521313896
+2025;"Corse";"Production";1,474021104198
