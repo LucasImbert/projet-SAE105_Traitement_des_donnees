@@ -1,39 +1,23 @@
+<div class="region-selector">
 
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="utf-8">
-  <title>SAE 105 – Part des renouvelables par région</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <input type="radio" name="région" id="rIDF" checked>
+  <label for="rIDF">Ile de France</label>
 
-  <header>
-    <h1>Part des énergies renouvelables par région</h1>
-    <p>Choisis une année pour afficher le graphique.</p>
-  </header>
+  <input type="radio" name="région" id="rARA" checked>
+  <label for="rARA">Auvergne Rhone Alpe</label>
 
-  <section class="controls">
-    <div class="buttons">
-      <button data-year="2022">2022</button>
-      <button data-year="2023" class="active">2023</button>
-      <button data-year="2024">2024</button>
-      <button data-year="2025">2025</button>
-    </div>
-    <label for="yearSelect">Année :</label>
-    <select id="yearSelect">
-      <option value="2022">2022</option>
-      <option value="2023" selected>2023</option>
-      <option value="2024">2024</option>
-      <option value="2025">2025</option>
-    </select>
-  </section>
+  <input type="radio" name="région" id="rC" checked>
+  <label for="rC">Corse</label>
 
-  <footer>
-    <small>Sources : graphiques générés en Python (matplotlib), données publiques RTE.</small>
-  </footer>
+  <input type="radio" name="région" id="rBRC" checked>
+  <label for="rBRC">Bourgogne Franche Comte</label>
 
-</body>
-</html>
+  <div class="graphs">
+    <img src="IDF.webp" class="gIDF">
+    <img src="ARA.webp" class="gARA">
+    <img src="C.webp" class="gC">
+    <img src="BRC.webp" class="gBRC">
+  </div>
 
+</div>
 
