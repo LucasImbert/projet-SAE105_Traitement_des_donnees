@@ -6,103 +6,67 @@
 </head>
 <body>
 
-<div class="region-selector">
 
+<div class="controls regions">
   <input type="radio" name="region" id="rIDF" checked>
   <label for="rIDF">Île-de-France</label>
 
   <input type="radio" name="region" id="rARA">
-  <label for="rARA">Auvergne Rhône-Alpes</label>
+  <label for="rARA">ARA</label>
 
   <input type="radio" name="region" id="rC">
   <label for="rC">Corse</label>
+</div>
 
-  <input type="radio" name="region" id="rBFC">
-  <label for="rBFC">Bourgogne Franche-Comté</label>
 
-  <div class="graphs">
+<div class="controls years">
+  <input type="radio" name="year" id="y2014" checked>
+  <label for="y2014">2014</label>
 
-    <div class="region rIDF">
+  <input type="radio" name="year" id="y2015">
+  <label for="y2015">2015</label>
 
-      <div class="year-selector">
-        <input type="radio" name="yearIDF" id="idf2020" checked>
-        <label for="idf2021">2021</label>
+  <input type="radio" name="year" id="y2025">
+  <label for="y2025">2025</label>
+</div>
 
-        <input type="radio" name="yearIDF" id="idf2021">
-        <label for="idf2022">2022</label>
-      </div>
 
-      <img src="Graphique/IDF.webp">
-      <img src="Graphique/IDF_2.webp">
+<div class="graphs">
+
+  
+  <div class="region rIDF">
 
     
-      <div class="year-graphs">
-        <img src="Graphique/Prod_mens_IDF_2021.png" class="y2021">
-        <img src="Graphique/Prod_mens_IDF_2022.png" class="y2022">
-      </div>
-    </div>
+    <img src="Graphique/IDF.webp">
+    <img src="Graphique/IDF_fixe_2.webp">
 
-    <div class="region rARA">
-
-      <div class="year-selector">
-        <input type="radio" name="yearARA" id="ara2020" checked>
-        <label for="ara2020">2020</label>
-
-        <input type="radio" name="yearARA" id="ara2021">
-        <label for="ara2021">2021</label>
-      </div>
-
-      <img src="Graphique/ARA.webp">
-      <img src="Graphique/ARA_2.webp">
-
-      <div class="year-graphs">
-        <img src="Graphique/ARA_2020.webp" class="y2020">
-        <img src="Graphique/ARA_2021.webp" class="y2021">
-      </div>
-    </div>
-
-
-    <div class="region rC">
-
-      <div class="year-selector">
-        <input type="radio" name="yearC" id="c2020" checked>
-        <label for="c2020">2020</label>
-
-        <input type="radio" name="yearC" id="c2021">
-        <label for="c2021">2021</label>
-      </div>
-
-      <img src="Graphique/C.webp">
-      <img src="Graphique/C_2.webp">
-
-      <div class="year-graphs">
-        <img src="Graphique/C_2020.webp" class="y2020">
-        <img src="Graphique/C_2021.webp" class="y2021">
-      </div>
-    </div>
-
-    <div class="region rBFC">
-
-      <div class="year-selector">
-        <input type="radio" name="yearBFC" id="bfc2020" checked>
-        <label for="bfc2020">2020</label>
-
-        <input type="radio" name="yearBFC" id="bfc2021">
-        <label for="bfc2021">2021</label>
-      </div>
-
-      <img src="Graphique/BFC.webp">
-      <img src="Graphique/BFC_2.webp">
-
-      <div class="year-graphs">
-        <img src="Graphique/BFC_2020.webp" class="y2020">
-        <img src="Graphique/BFC_2021.webp" class="y2021">
-      </div>
-    </div>
-
+    
+    <img src="Graphique/Prod_mens_IDF_2023.png" class="year y2014">
+    <img src="Graphique/Prod_mens_IDF_2024.png" class="year y2015">
+    <img src="Graphique/Prod_mens_IDF_2025.png" class="year y2025">
   </div>
+
+
+  <div class="region rARA">
+
+    <img src="Graphique/ARA.webp">
+
+    <img src="Graphique/ARA_2014.webp" class="year y2014">
+    <img src="Graphique/ARA_2015.webp" class="year y2015">
+    <img src="Graphique/ARA_2025.webp" class="year y2025">
+  </div>
+
+  
+  <div class="region rC">
+
+    <img src="Graphique/C.webp">
+
+    <img src="Graphique/C_2014.webp" class="year y2014">
+    <img src="Graphique/C_2015.webp" class="year y2015">
+    <img src="Graphique/C_2025.webp" class="year y2025">
+  </div>
+
 </div>
 
 </body>
 </html>
-

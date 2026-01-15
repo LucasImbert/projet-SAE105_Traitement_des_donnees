@@ -1,84 +1,59 @@
-input[type="radio"] {
-  display: none;
+
+input { 
+  display: none; 
 }
 
 label {
-  padding: 10px 16px;
+  padding: 8px 14px;
+  margin: 4px;
   background: #2563eb;
   color: white;
-  border-radius: 8px;
+  border-radius: 6px;
   cursor: pointer;
-  margin: 5px;
-  display: inline-block;
 }
 
-.year-selector label {
-  background: #16a34a;
+.controls {
+  margin-bottom: 15px;
 }
 
 
 .region {
   display: none;
-  margin-top: 20px;
 }
 
 
 #rIDF:checked ~ .graphs .rIDF { 
   display: block; 
 }
+
 #rARA:checked ~ .graphs .rARA { 
   display: block; 
 }
-#rC:checked ~ .graphs .rC { 
-  display: block; 
-}
-#rBFC:checked ~ .graphs .rBFC { 
+
+#rC:checked  ~ .graphs .rC  { 
   display: block; 
 }
 
 
-.year-graphs img {
+.year {
   display: none;
 }
 
 
-#idf2021:checked ~ .year-graphs .y2021 { 
-  display: block; 
-}
-#idf2022:checked ~ .year-graphs .y2022 { 
-  display: block; 
+#y2014:checked ~ .graphs .y2014 { 
+  display: inline-block; 
 }
 
-
-#ara2020:checked ~ .year-graphs .y2020 { 
-  display: block; 
-}
-#ara2021:checked ~ .year-graphs .y2021 { 
-  display: block; 
+#y2015:checked ~ .graphs .y2015 { 
+  display: inline-block; 
 }
 
-
-#c2020:checked ~ .year-graphs .y2020 { 
-  display: block; 
-}
-#c2021:checked ~ .year-graphs .y2021 { 
-  display: block; 
-}
-
-
-#bfc2020:checked ~ .year-graphs .y2020 { 
-  display: block; 
-}
-#bfc2021:checked ~ .year-graphs .y2021 { 
-  display: block; 
+#y2025:checked ~ .graphs .y2025 { 
+  display: inline-block; 
 }
 
 
 .region img {
-  max-width: 300px;
+  max-width: 280px;
   margin: 10px;
-}
-
-.year-graphs {
-  display: flex;
 }
