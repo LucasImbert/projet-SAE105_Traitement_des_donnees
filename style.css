@@ -17,3 +17,20 @@ label {
   max-width: 600px;
   margin-top: 20px;
 }
+
+
+#rIDF:checked ~ .graphs .gIDF {
+  display: block;
+}
+
+#rARA:checked ~ .graphs .gARA {
+  display: block;
+}
+
+#rC:checked ~ .graphs .gC {
+  display: block;
+}
+
+#rBFC:checked ~ .graphs .gBFC {
+  display: block;
+}
