@@ -1,74 +1,148 @@
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
+  <title>Régions & Années Graphiques</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+  <div class="controls regions">
+    <input type="radio" name="region" id="rIDF" checked>
+    <label for="rIDF">Île-de-France</label>
 
-<div class="controls regions">
-  <input type="radio" name="region" id="rIDF" checked>
-  <label for="rIDF">Île-de-France</label>
+    <input type="radio" name="region" id="rARA">
+    <label for="rARA">Auvergne‑Rhône‑Alpes</label>
 
-  <input type="radio" name="region" id="rARA">
-  <label for="rARA">ARA</label>
+    <input type="radio" name="region" id="rC">
+    <label for="rC">Corse</label>
 
-  <input type="radio" name="region" id="rC">
-  <label for="rC">Corse</label>
-</div>
+    <input type="radio" name="region" id="rBRE">
+    <label for="rBRE">Bretagne</label>
+
+    <input type="radio" name="region" id="rNOR">
+    <label for="rNOR">Normandie</label>
+
+    <input type="radio" name="region" id="rHDF">
+    <label for="rHDF">Hauts‑de‑France</label>
+
+    <input type="radio" name="region" id="rGE">
+    <label for="rGE">Grand Est</label>
+
+    <input type="radio" name="region" id="rBFC">
+    <label for="rBFC">Bourgogne‑Franche‑Comté</label>
+
+    <input type="radio" name="region" id="rCVL">
+    <label for="rCVL">Centre‑Val de Loire</label>
+
+    <input type="radio" name="region" id="rPDL">
+    <label for="rPDL">Pays de la Loire</label>
+
+    <input type="radio" name="region" id="rNAQ">
+    <label for="rNAQ">Nouvelle‑Aquitaine</label>
+
+    <input type="radio" name="region" id="rOCC">
+    <label for="rOCC">Occitanie</label>
+
+    <input type="radio" name="region" id="rPACA">
+    <label for="rPACA">Provence‑Alpes‑Côte d’Azur</label>
+  </div>
+
+  <div class="controls years">
+    <input type="radio" name="year" id="y2014" checked><label for="y2014">2014</label>
+    <input type="radio" name="year" id="y2015"><label for="y2015">2015</label>
+    <input type="radio" name="year" id="y2016"><label for="y2016">2016</label>
+    <input type="radio" name="year" id="y2017"><label for="y2017">2017</label>
+    <input type="radio" name="year" id="y2018"><label for="y2018">2018</label>
+    <input type="radio" name="year" id="y2019"><label for="y2019">2019</label>
+    <input type="radio" name="year" id="y2020"><label for="y2020">2020</label>
+    <input type="radio" name="year" id="y2021"><label for="y2021">2021</label>
+    <input type="radio" name="year" id="y2022"><label for="y2022">2022</label>
+    <input type="radio" name="year" id="y2023"><label for="y2023">2023</label>
+    <input type="radio" name="year" id="y2024"><label for="y2024">2024</label>
+    <input type="radio" name="year" id="y2025"><label for="y2025">2025</label>
+  </div>
 
 
-<div class="controls years">
-  <input type="radio" name="year" id="y2014" checked>
-  <label for="y2014">2014</label>
+  <div class="graphs">
+    <div class="region rIDF">
 
-  <input type="radio" name="year" id="y2015">
-  <label for="y2015">2015</label>
+      <img class="fixed" src="Graphique/IDF.webp" alt="Île-de-France - Graphique fixe 1">
+      <img class="fixed" src="Graphique/Prod_an_IDF.webp" alt="Île-de-France - Graphique fixe 2">
 
-  <input type="radio" name="year" id="y2025">
-  <label for="y2025">2025</label>
-</div>
+      <img class="year y2014" src="Graphique/IDF_2014.png" alt="Île-de-France - 2014">
+      <img class="year y2015" src="Graphique/IDF_2015.png" alt="Île-de-France - 2015">
+      <img class="year y2016" src="Graphique/IDF_2016.png" alt="Île-de-France - 2016">
+      <img class="year y2017" src="Graphique/IDF_2017.png" alt="Île-de-France - 2017">
+      <img class="year y2018" src="Graphique/IDF_2018.png" alt="Île-de-France - 2018">
+      <img class="year y2019" src="Graphique/IDF_2019.png" alt="Île-de-France - 2019">
+      <img class="year y2020" src="Graphique/IDF_2020.png" alt="Île-de-France - 2020">
+      <img class="year y2021" src="Graphique/Prod_mens_IDF_2021.png" alt="Île-de-France - 2021">
+      <img class="year y2022" src="Graphique/Prod_mens_IDF_2022.png" alt="Île-de-France - 2022">
+      <img class="year y2023" src="Graphique/Prod_mens_IDF_2023.png" alt="Île-de-France - 2023">
+      <img class="year y2024" src="Graphique/Prod_mens_IDF_2024.png" alt="Île-de-France - 2024">
+      <img class="year y2025" src="Graphique/Prod_mens_IDF_2025.png" alt="Île-de-France - 2025">
+    </div>
+
+    <div class="region rARA">
+      <img class="fixed" src="Graphique/ARA.webp" alt="ARA - Graphique fixe 1">
+      <img class="fixed" src="Graphique/ARA_fixe_2.webp" alt="ARA - Graphique fixe 2">
+
+      <img class="year y2014" src="Graphique/ARA_2014.png" alt="ARA - 2014">
+      <img class="year y2015" src="Graphique/ARA_2015.png" alt="ARA - 2015">
+      <img class="year y2016" src="Graphique/ARA_2016.png" alt="ARA - 2016">
+      <img class="year y2017" src="Graphique/ARA_2017.png" alt="ARA - 2017">
+      <img class="year y2018" src="Graphique/ARA_2018.png" alt="ARA - 2018">
+      <img class="year y2019" src="Graphique/ARA_2019.png" alt="ARA - 2019">
+      <img class="year y2020" src="Graphique/ARA_2020.png" alt="ARA - 2020">
+      <img class="year y2021" src="Graphique/ARA_2021.png" alt="ARA - 2021">
+      <img class="year y2022" src="Graphique/ARA_2022.png" alt="ARA - 2022">
+      <img class="year y2023" src="Graphique/ARA_2023.png" alt="ARA - 2023">
+      <img class="year y2024" src="Graphique/ARA_2024.png" alt="ARA - 2024">
+      <img class="year y2025" src="Graphique/ARA_2025.png" alt="ARA - 2025">
+    </div>
+
+    <div class="region rC">
+      <img class="fixed" src="Graphique/C.webp" alt="Corse - Graphique fixe 1">
+      <img class="fixed" src="Graphique/C_fixe_2.webp" alt="Corse - Graphique fixe 2">
+
+      <img class="year y2014" src="Graphique/C_2014.png" alt="Corse - 2014">
+      <img class="year y2015" src="Graphique/C_2015.png" alt="Corse - 2015">
+      <img class="year y2016" src="Graphique/C_2016.png" alt="Corse - 2016">
+      <img class="year y2017" src="Graphique/C_2017.png" alt="Corse - 2017">
+      <img class="year y2018" src="Graphique/C_2018.png" alt="Corse - 2018">
+      <img class="year y2019" src="Graphique/C_2019.png" alt="Corse - 2019">
+      <img class="year y2020" src="Graphique/C_2020.png" alt="Corse - 2020">
+      <img class="year y2021" src="Graphique/C_2021.png" alt="Corse - 2021">
+      <img class="year y2022" src="Graphique/C_2022.png" alt="Corse - 2022">
+      <img class="year y2023" src="Graphique/C_2023.png" alt="Corse - 2023">
+      <img class="year y2024" src="Graphique/C_2024.png" alt="Corse - 2024">
+      <img class="year y2025" src="Graphique/C_2025.png" alt="Corse - 2025">
+    </div>
 
 
-<div class="graphs">
+    <div class="region rBFC">
+      <img class="fixed" src="Graphique/BFC.webp" alt="BFC - Graphique fixe 1">
+      <img class="fixed" src="Graphique/BFC_fixe_2.webp" alt="BFC - Graphique fixe 2">
 
-  
-  <div class="region rIDF">
+      <img class="year y2014" src="Graphique/BFC_2014.png" alt="BFC - 2014">
+      <img class="year y2015" src="Graphique/BFC_2015.png" alt="BFC - 2015">
+      <img class="year y2016" src="Graphique/BFC_2016.png" alt="BFC - 2016">
+      <img class="year y2017" src="Graphique/BFC_2017.png" alt="BFC - 2017">
+      <img class="year y2018" src="Graphique/BFC_2018.png" alt="BFC - 2018">
+      <img class="year y2019" src="Graphique/BFC_2019.png" alt="BFC - 2019">
+      <img class="year y2020" src="Graphique/BFC_2020.png" alt="BFC - 2020">
+      <img class="year y2021" src="Graphique/BFC_2021.png" alt="BFC - 2021">
+      <img class="year y2022" src="Graphique/BFC_2022.png" alt="BFC - 2022">
+      <img class="year y2023" src="Graphique/BFC_2023.png" alt="BFC - 2023">
+      <img class="year y2024" src="Graphique/BFC_2024.png" alt="BFC - 2024">
+      <img class="year y2025" src="Graphique/BFC_2025.png" alt="BFC - 2025">
+    </div>
 
     
-    <img src="Graphique/IDF.webp">
-    <img src="Graphique/Prod_an_IDF.png">
-
-    
-    <img src="Graphique/Prod_mens_IDF_2023.png" class="year y2014">
-    <img src="Graphique/Prod_mens_IDF_2024.png" class="year y2015">
-    <img src="Graphique/Prod_mens_IDF_2025.png" class="year y2025">
   </div>
-
-
-  <div class="region rARA">
-
-    <img src="Graphique/ARA.webp">
-
-    <img src="Graphique/ARA_2014.webp" class="year y2014">
-    <img src="Graphique/ARA_2015.webp" class="year y2015">
-    <img src="Graphique/ARA_2025.webp" class="year y2025">
-  </div>
-
-  
-  <div class="region rC">
-
-    <img src="Graphique/C.webp">
-
-    <img src="Graphique/C_2014.webp" class="year y2014">
-    <img src="Graphique/C_2015.webp" class="year y2015">
-    <img src="Graphique/C_2025.webp" class="year y2025">
-  </div>
-
-</div>
-
 </body>
 </html>
-
 
