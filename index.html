@@ -5,14 +5,15 @@
   <meta charset="UTF-8">
   <title>Régions & Années Graphiques</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-
+  <!--Bouton Régions -->
   <input type="radio" name="region" id="rIDF" checked>
   <input type="radio" name="region" id="rARA">
-  <input type="radio" name="region" id="rC">
+  <input type="radio" name="region" id="rCOR">
   <input type="radio" name="region" id="rBRE">
   <input type="radio" name="region" id="rNOR">
   <input type="radio" name="region" id="rHDF">
@@ -20,11 +21,11 @@
   <input type="radio" name="region" id="rBFC">
   <input type="radio" name="region" id="rCVL">
   <input type="radio" name="region" id="rPDL">
-  <input type="radio" name="region" id="rNAQ">
+  <input type="radio" name="region" id="rNA">
   <input type="radio" name="region" id="rOCC">
-  <input type="radio" name="region" id="rPACA">
+  <input type="radio" name="region" id="rPAC">
 
-
+  <!--Bouton Années -->
   <input type="radio" name="year" id="y2014" checked>
   <input type="radio" name="year" id="y2015">
   <input type="radio" name="year" id="y2016">
@@ -38,21 +39,21 @@
   <input type="radio" name="year" id="y2024">
   <input type="radio" name="year" id="y2025">
 
- 
+  <!-- Ecriture sur boutons -->
   <div class="controls regions">
     <label for="rIDF">Île-de-France</label>
-    <label for="rARA">Auvergne‑Rhône‑Alpes</label>
-    <label for="rC">Corse</label>
+    <label for="rARA">Auvergne-Rhône-Alpes</label>
+    <label for="rCOR">Corse</label>
     <label for="rBRE">Bretagne</label>
     <label for="rNOR">Normandie</label>
-    <label for="rHDF">Hauts‑de‑France</label>
+    <label for="rHDF">Hauts-de-France</label>
     <label for="rGE">Grand Est</label>
-    <label for="rBFC">Bourgogne‑Franche‑Comté</label>
-    <label for="rCVL">Centre‑Val de Loire</label>
+    <label for="rBFC">Bourgogne-Franche-Comté</label>
+    <label for="rCVL">Centre-Val de Loire</label>
     <label for="rPDL">Pays de la Loire</label>
-    <label for="rNAQ">Nouvelle‑Aquitaine</label>
+    <label for="rNA">Nouvelle-Aquitaine</label>
     <label for="rOCC">Occitanie</label>
-    <label for="rPACA">Provence‑Alpes‑Côte d’Azur</label>
+    <label for="rPAC">Provence-Alpes-Côte d'Azur</label>
   </div>
 
   <div class="controls years">
@@ -70,86 +71,248 @@
     <label for="y2025">2025</label>
   </div>
 
- 
+  <!-- Zone des Graphiques -->
   <div class="graphs">
 
+    
+    <div class="docGlobal">
+      <img class="doc year y2014" src="Graphique/Synthese/bilan_régions_2014.png" alt="Bilan des régions - 2014">
+      <img class="doc year y2015" src="Graphique/Synthese/bilan_régions_2015.png" alt="Bilan des régions - 2015">
+      <img class="doc year y2016" src="Graphique/Synthese/bilan_régions_2016.png" alt="Bilan des régions - 2016">
+      <img class="doc year y2017" src="Graphique/Synthese/bilan_régions_2017.png" alt="Bilan des régions - 2017">
+      <img class="doc year y2018" src="Graphique/Synthese/bilan_régions_2018.png" alt="Bilan des régions - 2018">
+      <img class="doc year y2019" src="Graphique/Synthese/bilan_régions_2019.png" alt="Bilan des régions - 2019">
+      <img class="doc year y2020" src="Graphique/Synthese/bilan_régions_2020.png" alt="Bilan des régions - 2020">
+      <img class="doc year y2021" src="Graphique/Synthese/bilan_régions_2021.png" alt="Bilan des régions - 2021">
+      <img class="doc year y2022" src="Graphique/Synthese/bilan_régions_2022.png" alt="Bilan des régions - 2022">
+      <img class="doc year y2023" src="Graphique/Synthese/bilan_régions_2023.png" alt="Bilan des régions - 2023">
+      <img class="doc year y2024" src="Graphique/Synthese/bilan_régions_2024.png" alt="Bilan des régions - 2024">
+      <img class="doc year y2025" src="Graphique/Synthese/bilan_régions_2025.png" alt="Bilan des régions - 2025">
+    </div>
+
+    <!-- Régions (1 image fixe + image de 2014-2025) -->
+
+    <!-- Île-de-France -->
     <div class="region rIDF">
-      <img class="fixed" src="Graphique/IDF.webp" alt="Île-de-France - Graphique fixe 1">
-      <img class="fixed" src="Graphique/Prod_an_IDF.webp" alt="Île-de-France - Graphique fixe 2">
-
-      <img class="year y2014" src="Graphique/IDF_2014.png" alt="Île-de-France - 2014">
-      <img class="year y2015" src="Graphique/IDF_2015.png" alt="Île-de-France - 2015">
-      <img class="year y2016" src="Graphique/IDF_2016.png" alt="Île-de-France - 2016">
-      <img class="year y2017" src="Graphique/IDF_2017.png" alt="Île-de-France - 2017">
-      <img class="year y2018" src="Graphique/IDF_2018.png" alt="Île-de-France - 2018">
-      <img class="year y2019" src="Graphique/IDF_2019.png" alt="Île-de-France - 2019">
-      <img class="year y2020" src="Graphique/IDF_2020.png" alt="Île-de-France - 2020">
-      <img class="year y2021" src="Graphique/Prod_mens_IDF_2021.png" alt="Île-de-France - 2021">
-      <img class="year y2022" src="Graphique/Prod_mens_IDF_2022.png" alt="Île-de-France - 2022">
-      <img class="year y2023" src="Graphique/Prod_mens_IDF_2023.png" alt="Île-de-France - 2023">
-      <img class="year y2024" src="Graphique/Prod_mens_IDF_2024.png" alt="Île-de-France - 2024">
-      <img class="year y2025" src="Graphique/Prod_mens_IDF_2025.png" alt="Île-de-France - 2025">
+      <img class="fixed" src="Graphique/Annee/bilan_annuel_IDF.png" alt="Bilan annuel IDF">
+      <img class="year y2014" src="Graphique/Mois/bilan_2014_IDF.png" alt="IDF - 2014">
+      <img class="year y2015" src="Graphique/Mois/bilan_2015_IDF.png" alt="IDF - 2015">
+      <img class="year y2016" src="Graphique/Mois/bilan_2016_IDF.png" alt="IDF - 2016">
+      <img class="year y2017" src="Graphique/Mois/bilan_2017_IDF.png" alt="IDF - 2017">
+      <img class="year y2018" src="Graphique/Mois/bilan_2018_IDF.png" alt="IDF - 2018">
+      <img class="year y2019" src="Graphique/Mois/bilan_2019_IDF.png" alt="IDF - 2019">
+      <img class="year y2020" src="Graphique/Mois/bilan_2020_IDF.png" alt="IDF - 2020">
+      <img class="year y2021" src="Graphique/Mois/bilan_2021_IDF.png" alt="IDF - 2021">
+      <img class="year y2022" src="Graphique/Mois/bilan_2022_IDF.png" alt="IDF - 2022">
+      <img class="year y2023" src="Graphique/Mois/bilan_2023_IDF.png" alt="IDF - 2023">
+      <img class="year y2024" src="Graphique/Mois/bilan_2024_IDF.png" alt="IDF - 2024">
+      <img class="year y2025" src="Graphique/Mois/bilan_2025_IDF.png" alt="IDF - 2025">
     </div>
 
-  
+    <!-- Auvergne‑Rhône‑Alpes -->
     <div class="region rARA">
-      <img class="fixed" src="Graphique/ARA.webp" alt="ARA - Graphique fixe 1">
-      <img class="fixed" src="Graphique/ARA_fixe_2.webp" alt="ARA - Graphique fixe 2">
-
-      <img class="year y2014" src="Graphique/ARA_2014.png" alt="ARA - 2014">
-      <img class="year y2015" src="Graphique/ARA_2015.png" alt="ARA - 2015">
-      <img class="year y2016" src="Graphique/ARA_2016.png" alt="ARA - 2016">
-      <img class="year y2017" src="Graphique/ARA_2017.png" alt="ARA - 2017">
-      <img class="year y2018" src="Graphique/ARA_2018.png" alt="ARA - 2018">
-      <img class="year y2019" src="Graphique/ARA_2019.png" alt="ARA - 2019">
-      <img class="year y2020" src="Graphique/ARA_2020.png" alt="ARA - 2020">
-      <img class="year y2021" src="Graphique/ARA_2021.png" alt="ARA - 2021">
-      <img class="year y2022" src="Graphique/ARA_2022.png" alt="ARA - 2022">
-      <img class="year y2023" src="Graphique/ARA_2023.png" alt="ARA - 2023">
-      <img class="year y2024" src="Graphique/ARA_2024.png" alt="ARA - 2024">
-      <img class="year y2025" src="Graphique/ARA_2025.png" alt="ARA - 2025">
+      <img class="fixed" src="Graphique/Annee/bilan_annuel_ARA.png" alt="Bilan annuel ARA">
+      <img class="year y2014" src="Graphique/Mois/bilan_2014_ARA.png" alt="ARA - 2014">
+      <img class="year y2015" src="Graphique/Mois/bilan_2015_ARA.png" alt="ARA - 2015">
+      <img class="year y2016" src="Graphique/Mois/bilan_2016_ARA.png" alt="ARA - 2016">
+      <img class="year y2017" src="Graphique/Mois/bilan_2017_ARA.png" alt="ARA - 2017">
+      <img class="year y2018" src="Graphique/Mois/bilan_2018_ARA.png" alt="ARA - 2018">
+      <img class="year y2019" src="Graphique/Mois/bilan_2019_ARA.png" alt="ARA - 2019">
+      <img class="year y2020" src="Graphique/Mois/bilan_2020_ARA.png" alt="ARA - 2020">
+      <img class="year y2021" src="Graphique/Mois/bilan_2021_ARA.png" alt="ARA - 2021">
+      <img class="year y2022" src="Graphique/Mois/bilan_2022_ARA.png" alt="ARA - 2022">
+      <img class="year y2023" src="Graphique/Mois/bilan_2023_ARA.png" alt="ARA - 2023">
+      <img class="year y2024" src="Graphique/Mois/bilan_2024_ARA.png" alt="ARA - 2024">
+      <img class="year y2025" src="Graphique/Mois/bilan_2025_ARA.png" alt="ARA - 2025">
     </div>
 
-
-    <div class="region rC">
-      <img class="fixed" src="Graphique/C.webp" alt="Corse - Graphique fixe 1">
-      <img class="fixed" src="Graphique/C_fixe_2.webp" alt="Corse - Graphique fixe 2">
-
-      <img class="year y2014" src="Graphique/C_2014.png" alt="Corse - 2014">
-      <img class="year y2015" src="Graphique/C_2015.png" alt="Corse - 2015">
-      <img class="year y2016" src="Graphique/C_2016.png" alt="Corse - 2016">
-      <img class="year y2017" src="Graphique/C_2017.png" alt="Corse - 2017">
-      <img class="year y2018" src="Graphique/C_2018.png" alt="Corse - 2018">
-      <img class="year y2019" src="Graphique/C_2019.png" alt="Corse - 2019">
-      <img class="year y2020" src="Graphique/C_2020.png" alt="Corse - 2020">
-      <img class="year y2021" src="Graphique/C_2021.png" alt="Corse - 2021">
-      <img class="year y2022" src="Graphique/C_2022.png" alt="Corse - 2022">
-      <img class="year y2023" src="Graphique/C_2023.png" alt="Corse - 2023">
-      <img class="year y2024" src="Graphique/C_2024.png" alt="Corse - 2024">
-      <img class="year y2025" src="Graphique/C_2025.png" alt="Corse - 2025">
+    <!-- Corse -->
+    <div class="region rCOR">
+      <img class="fixed" src="Graphique/Annee/bilan_annuel_COR.png" alt="Bilan annuel COR">
+      <img class="year y2014" src="Graphique/Mois/bilan_2014_COR.png" alt="COR - 2014">
+      <img class="year y2015" src="Graphique/Mois/bilan_2015_COR.png" alt="COR - 2015">
+      <img class="year y2016" src="Graphique/Mois/bilan_2016_COR.png" alt="COR - 2016">
+      <img class="year y2017" src="Graphique/Mois/bilan_2017_COR.png" alt="COR - 2017">
+      <img class="year y2018" src="Graphique/Mois/bilan_2018_COR.png" alt="COR - 2018">
+      <img class="year y2019" src="Graphique/Mois/bilan_2019_COR.png" alt="COR - 2019">
+      <img class="year y2020" src="Graphique/Mois/bilan_2020_COR.png" alt="COR - 2020">
+      <img class="year y2021" src="Graphique/Mois/bilan_2021_COR.png" alt="COR - 2021">
+      <img class="year y2022" src="Graphique/Mois/bilan_2022_COR.png" alt="COR - 2022">
+      <img class="year y2023" src="Graphique/Mois/bilan_2023_COR.png" alt="COR - 2023">
+      <img class="year y2024" src="Graphique/Mois/bilan_2024_COR.png" alt="COR - 2024">
+      <img class="year y2025" src="Graphique/Mois/bilan_2025_COR.png" alt="COR - 2025">
     </div>
 
-  
+    <!-- Bretagne -->
+    <div class="region rBRE">
+      <img class="fixed" src="Graphique/Annee/bilan_annuel_BRE.png" alt="Bilan annuel BRE">
+      <img class="year y2014" src="Graphique/Mois/bilan_2014_BRE.png" alt="BRE - 2014">
+      <img class="year y2015" src="Graphique/Mois/bilan_2015_BRE.png" alt="BRE - 2015">
+      <img class="year y2016" src="Graphique/Mois/bilan_2016_BRE.png" alt="BRE - 2016">
+      <img class="year y2017" src="Graphique/Mois/bilan_2017_BRE.png" alt="BRE - 2017">
+      <img class="year y2018" src="Graphique/Mois/bilan_2018_BRE.png" alt="BRE - 2018">
+      <img class="year y2019" src="Graphique/Mois/bilan_2019_BRE.png" alt="BRE - 2019">
+      <img class="year y2020" src="Graphique/Mois/bilan_2020_BRE.png" alt="BRE - 2020">
+      <img class="year y2021" src="Graphique/Mois/bilan_2021_BRE.png" alt="BRE - 2021">
+      <img class="year y2022" src="Graphique/Mois/bilan_2022_BRE.png" alt="BRE - 2022">
+      <img class="year y2023" src="Graphique/Mois/bilan_2023_BRE.png" alt="BRE - 2023">
+      <img class="year y2024" src="Graphique/Mois/bilan_2024_BRE.png" alt="BRE - 2024">
+      <img class="year y2025" src="Graphique/Mois/bilan_2025_BRE.png" alt="BRE - 2025">
+    </div>
+
+    <!-- Normandie -->
+    <div class="region rNOR">
+      <img class="fixed" src="Graphique/Annee/bilan_annuel_NOR.png" alt="Bilan annuel NOR">
+      <img class="year y2014" src="Graphique/Mois/bilan_2014_NOR.png" alt="NOR - 2014">
+      <img class="year y2015" src="Graphique/Mois/bilan_2015_NOR.png" alt="NOR - 2015">
+      <img class="year y2016" src="Graphique/Mois/bilan_2016_NOR.png" alt="NOR - 2016">
+      <img class="year y2017" src="Graphique/Mois/bilan_2017_NOR.png" alt="NOR - 2017">
+      <img class="year y2018" src="Graphique/Mois/bilan_2018_NOR.png" alt="NOR - 2018">
+      <img class="year y2019" src="Graphique/Mois/bilan_2019_NOR.png" alt="NOR - 2019">
+      <img class="year y2020" src="Graphique/Mois/bilan_2020_NOR.png" alt="NOR - 2020">
+      <img class="year y2021" src="Graphique/Mois/bilan_2021_NOR.png" alt="NOR - 2021">
+      <img class="year y2022" src="Graphique/Mois/bilan_2022_NOR.png" alt="NOR - 2022">
+      <img class="year y2023" src="Graphique/Mois/bilan_2023_NOR.png" alt="NOR - 2023">
+      <img class="year y2024" src="Graphique/Mois/bilan_2024_NOR.png" alt="NOR - 2024">
+      <img class="year y2025" src="Graphique/Mois/bilan_2025_NOR.png" alt="NOR - 2025">
+    </div>
+
+    <!-- Hauts-de-France -->
+    <div class="region rHDF">
+      <img class="fixed" src="Graphique/Annee/bilan_annuel_HDF.png" alt="Bilan annuel HDF">
+      <img class="year y2014" src="Graphique/Mois/bilan_2014_HDF.png" alt="HDF - 2014">
+      <img class="year y2015" src="Graphique/Mois/bilan_2015_HDF.png" alt="HDF - 2015">
+      <img class="year y2016" src="Graphique/Mois/bilan_2016_HDF.png" alt="HDF - 2016">
+      <img class="year y2017" src="Graphique/Mois/bilan_2017_HDF.png" alt="HDF - 2017">
+      <img class="year y2018" src="Graphique/Mois/bilan_2018_HDF.png" alt="HDF - 2018">
+      <img class="year y2019" src="Graphique/Mois/bilan_2019_HDF.png" alt="HDF - 2019">
+      <img class="year y2020" src="Graphique/Mois/bilan_2020_HDF.png" alt="HDF - 2020">
+      <img class="year y2021" src="Graphique/Mois/bilan_2021_HDF.png" alt="HDF - 2021">
+      <img class="year y2022" src="Graphique/Mois/bilan_2022_HDF.png" alt="HDF - 2022">
+      <img class="year y2023" src="Graphique/Mois/bilan_2023_HDF.png" alt="HDF - 2023">
+      <img class="year y2024" src="Graphique/Mois/bilan_2024_HDF.png" alt="HDF - 2024">
+      <img class="year y2025" src="Graphique/Mois/bilan_2025_HDF.png" alt="HDF - 2025">
+    </div>
+
+    <!-- Grand Est -->
+    <div class="region rGE">
+      <img class="fixed" src="Graphique/Annee/bilan_annuel_GE.png" alt="Bilan annuel GE">
+      <img class="year y2014" src="Graphique/Mois/bilan_2014_GE.png" alt="GE - 2014">
+      <img class="year y2015" src="Graphique/Mois/bilan_2015_GE.png" alt="GE - 2015">
+      <img class="year y2016" src="Graphique/Mois/bilan_2016_GE.png" alt="GE - 2016">
+      <img class="year y2017" src="Graphique/Mois/bilan_2017_GE.png" alt="GE - 2017">
+      <img class="year y2018" src="Graphique/Mois/bilan_2018_GE.png" alt="GE - 2018">
+      <img class="year y2019" src="Graphique/Mois/bilan_2019_GE.png" alt="GE - 2019">
+      <img class="year y2020" src="Graphique/Mois/bilan_2020_GE.png" alt="GE - 2020">
+      <img class="year y2021" src="Graphique/Mois/bilan_2021_GE.png" alt="GE - 2021">
+      <img class="year y2022" src="Graphique/Mois/bilan_2022_GE.png" alt="GE - 2022">
+      <img class="year y2023" src="Graphique/Mois/bilan_2023_GE.png" alt="GE - 2023">
+      <img class="year y2024" src="Graphique/Mois/bilan_2024_GE.png" alt="GE - 2024">
+      <img class="year y2025" src="Graphique/Mois/bilan_2025_GE.png" alt="GE - 2025">
+    </div>
+
+    <!-- Bourgogne‑Franche‑Comté -->
     <div class="region rBFC">
-      <img class="fixed" src="Graphique/BFC.webp" alt="BFC - Graphique fixe 1">
-      <img class="fixed" src="Graphique/BFC_fixe_2.webp" alt="BFC - Graphique fixe 2">
-
-      <img class="year y2014" src="Graphique/BFC_2014.png" alt="BFC - 2014">
-      <img class="year y2015" src="Graphique/BFC_2015.png" alt="BFC - 2015">
-      <img class="year y2016" src="Graphique/BFC_2016.png" alt="BFC - 2016">
-      <img class="year y2017" src="Graphique/BFC_2017.png" alt="BFC - 2017">
-      <img class="year y2018" src="Graphique/BFC_2018.png" alt="BFC - 2018">
-      <img class="year y2019" src="Graphique/BFC_2019.png" alt="BFC - 2019">
-      <img class="year y2020" src="Graphique/BFC_2020.png" alt="BFC - 2020">
-      <img class="year y2021" src="Graphique/BFC_2021.png" alt="BFC - 2021">
-      <img class="year y2022" src="Graphique/BFC_2022.png" alt="BFC - 2022">
-      <img class="year y2023" src="Graphique/BFC_2023.png" alt="BFC - 2023">
-      <img class="year y2024" src="Graphique/BFC_2024.png" alt="BFC - 2024">
-      <img class="year y2025" src="Graphique/BFC_2025.png" alt="BFC - 2025">
+      <img class="fixed" src="Graphique/Annee/bilan_annuel_BFC.png" alt="Bilan annuel BFC">
+      <img class="year y2014" src="Graphique/Mois/bilan_2014_BFC.png" alt="BFC - 2014">
+      <img class="year y2015" src="Graphique/Mois/bilan_2015_BFC.png" alt="BFC - 2015">
+      <img class="year y2016" src="Graphique/Mois/bilan_2016_BFC.png" alt="BFC - 2016">
+      <img class="year y2017" src="Graphique/Mois/bilan_2017_BFC.png" alt="BFC - 2017">
+      <img class="year y2018" src="Graphique/Mois/bilan_2018_BFC.png" alt="BFC - 2018">
+      <img class="year y2019" src="Graphique/Mois/bilan_2019_BFC.png" alt="BFC - 2019">
+      <img class="year y2020" src="Graphique/Mois/bilan_2020_BFC.png" alt="BFC - 2020">
+      <img class="year y2021" src="Graphique/Mois/bilan_2021_BFC.png" alt="BFC - 2021">
+      <img class="year y2022" src="Graphique/Mois/bilan_2022_BFC.png" alt="BFC - 2022">
+      <img class="year y2023" src="Graphique/Mois/bilan_2023_BFC.png" alt="BFC - 2023">
+      <img class="year y2024" src="Graphique/Mois/bilan_2024_BFC.png" alt="BFC - 2024">
+      <img class="year y2025" src="Graphique/Mois/bilan_2025_BFC.png" alt="BFC - 2025">
     </div>
 
+    <!-- Centre‑Val de Loire -->
+    <div class="region rCVL">
+      <img class="fixed" src="Graphique/Annee/bilan_annuel_CVL.png" alt="Bilan annuel CVL">
+      <img class="year y2014" src="Graphique/Mois/bilan_2014_CVL.png" alt="CVL - 2014">
+      <img class="year y2015" src="Graphique/Mois/bilan_2015_CVL.png" alt="CVL - 2015">
+      <img class="year y2016" src="Graphique/Mois/bilan_2016_CVL.png" alt="CVL - 2016">
+      <img class="year y2017" src="Graphique/Mois/bilan_2017_CVL.png" alt="CVL - 2017">
+      <img class="year y2018" src="Graphique/Mois/bilan_2018_CVL.png" alt="CVL - 2018">
+      <img class="year y2019" src="Graphique/Mois/bilan_2019_CVL.png" alt="CVL - 2019">
+      <img class="year y2020" src="Graphique/Mois/bilan_2020_CVL.png" alt="CVL - 2020">
+      <img class="year y2021" src="Graphique/Mois/bilan_2021_CVL.png" alt="CVL - 2021">
+      <img class="year y2022" src="Graphique/Mois/bilan_2022_CVL.png" alt="CVL - 2022">
+      <img class="year y2023" src="Graphique/Mois/bilan_2023_CVL.png" alt="CVL - 2023">
+      <img class="year y2024" src="Graphique/Mois/bilan_2024_CVL.png" alt="CVL - 2024">
+      <img class="year y2025" src="Graphique/Mois/bilan_2025_CVL.png" alt="CVL - 2025">
+    </div>
+
+    <!-- Pays de la Loire -->
+    <div class="region rPDL">
+      <img class="fixed" src="Graphique/Annee/bilan_annuel_PDL.png" alt="Bilan annuel PDL">
+      <img class="year y2014" src="Graphique/Mois/bilan_2014_PDL.png" alt="PDL - 2014">
+      <img class="year y2015" src="Graphique/Mois/bilan_2015_PDL.png" alt="PDL - 2015">
+      <img class="year y2016" src="Graphique/Mois/bilan_2016_PDL.png" alt="PDL - 2016">
+      <img class="year y2017" src="Graphique/Mois/bilan_2017_PDL.png" alt="PDL - 2017">
+      <img class="year y2018" src="Graphique/Mois/bilan_2018_PDL.png" alt="PDL - 2018">
+      <img class="year y2019" src="Graphique/Mois/bilan_2019_PDL.png" alt="PDL - 2019">
+      <img class="year y2020" src="Graphique/Mois/bilan_2020_PDL.png" alt="PDL - 2020">
+      <img class="year y2021" src="Graphique/Mois/bilan_2021_PDL.png" alt="PDL - 2021">
+      <img class="year y2022" src="Graphique/Mois/bilan_2022_PDL.png" alt="PDL - 2022">
+      <img class="year y2023" src="Graphique/Mois/bilan_2023_PDL.png" alt="PDL - 2023">
+      <img class="year y2024" src="Graphique/Mois/bilan_2024_PDL.png" alt="PDL - 2024">
+      <img class="year y2025" src="Graphique/Mois/bilan_2025_PDL.png" alt="PDL - 2025">
+    </div>
+
+    <!-- Nouvelle‑Aquitaine -->
+    <div class="region rNA">
+      <img class="fixed" src="Graphique/Annee/bilan_annuel_NA.png" alt="Bilan annuel NA">
+      <img class="year y2014" src="Graphique/Mois/bilan_2014_NA.png" alt="NA - 2014">
+      <img class="year y2015" src="Graphique/Mois/bilan_2015_NA.png" alt="NA - 2015">
+      <img class="year y2016" src="Graphique/Mois/bilan_2016_NA.png" alt="NA - 2016">
+      <img class="year y2017" src="Graphique/Mois/bilan_2017_NA.png" alt="NA - 2017">
+      <img class="year y2018" src="Graphique/Mois/bilan_2018_NA.png" alt="NA - 2018">
+      <img class="year y2019" src="Graphique/Mois/bilan_2019_NA.png" alt="NA - 2019">
+      <img class="year y2020" src="Graphique/Mois/bilan_2020_NA.png" alt="NA - 2020">
+      <img class="year y2021" src="Graphique/Mois/bilan_2021_NA.png" alt="NA - 2021">
+      <img class="year y2022" src="Graphique/Mois/bilan_2022_NA.png" alt="NA - 2022">
+      <img class="year y2023" src="Graphique/Mois/bilan_2023_NA.png" alt="NA - 2023">
+      <img class="year y2024" src="Graphique/Mois/bilan_2024_NA.png" alt="NA - 2024">
+      <img class="year y2025" src="Graphique/Mois/bilan_2025_NA.png" alt="NA - 2025">
+    </div>
+
+    <!-- Occitanie -->
+    <div class="region rOCC">
+      <img class="fixed" src="Graphique/Annee/bilan_annuel_OCC.png" alt="Bilan annuel OCC">
+      <img class="year y2014" src="Graphique/Mois/bilan_2014_OCC.png" alt="OCC - 2014">
+      <img class="year y2015" src="Graphique/Mois/bilan_2015_OCC.png" alt="OCC - 2015">
+      <img class="year y2016" src="Graphique/Mois/bilan_2016_OCC.png" alt="OCC - 2016">
+      <img class="year y2017" src="Graphique/Mois/bilan_2017_OCC.png" alt="OCC - 2017">
+      <img class="year y2018" src="Graphique/Mois/bilan_2018_OCC.png" alt="OCC - 2018">
+      <img class="year y2019" src="Graphique/Mois/bilan_2019_OCC.png" alt="OCC - 2019">
+      <img class="year y2020" src="Graphique/Mois/bilan_2020_OCC.png" alt="OCC - 2020">
+      <img class="year y2021" src="Graphique/Mois/bilan_2021_OCC.png" alt="OCC - 2021">
+      <img class="year y2022" src="Graphique/Mois/bilan_2022_OCC.png" alt="OCC - 2022">
+      <img class="year y2023" src="Graphique/Mois/bilan_2023_OCC.png" alt="OCC - 2023">
+      <img class="year y2024" src="Graphique/Mois/bilan_2024_OCC.png" alt="OCC - 2024">
+      <img class="year y2025" src="Graphique/Mois/bilan_2025_OCC.png" alt="OCC - 2025">
+    </div>
+
+    <!-- Provence‑Alpes‑Côte d’Azur -->
+    <div class="region rPAC">
+      <img class="fixed" src="Graphique/Annee/bilan_annuel_PAC.png" alt="Bilan annuel PAC">
+      <img class="year y2014" src="Graphique/Mois/bilan_2014_PAC.png" alt="PAC - 2014">
+      <img class="year y2015" src="Graphique/Mois/bilan_2015_PAC.png" alt="PAC - 2015">
+      <img class="year y2016" src="Graphique/Mois/bilan_2016_PAC.png" alt="PAC - 2016">
+      <img class="year y2017" src="Graphique/Mois/bilan_2017_PAC.png" alt="PAC - 2017">
+      <img class="year y2018" src="Graphique/Mois/bilan_2018_PAC.png" alt="PAC - 2018">
+      <img class="year y2019" src="Graphique/Mois/bilan_2019_PAC.png" alt="PAC - 2019">
+      <img class="year y2020" src="Graphique/Mois/bilan_2020_PAC.png" alt="PAC - 2020">
+      <img class="year y2021" src="Graphique/Mois/bilan_2021_PAC.png" alt="PAC - 2021">
+      <img class="year y2022" src="Graphique/Mois/bilan_2022_PAC.png" alt="PAC - 2022">
+      <img class="year y2023" src="Graphique/Mois/bilan_2023_PAC.png" alt="PAC - 2023">
+      <img class="year y2024" src="Graphique/Mois/bilan_2024_PAC.png" alt="PAC - 2024">
+      <img class="year y2025" src="Graphique/Mois/bilan_2025_PAC.png" alt="PAC - 2025">
+    </div>
 
   </div>
 </body>
 </html>
-

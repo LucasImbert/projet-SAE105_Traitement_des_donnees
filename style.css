@@ -7,8 +7,8 @@ input {
 label {
   padding: 8px 14px;
   margin: 4px 6px 8px 0;
-  background: #2563eb;
-  color: #fff;
+  background: #5f6f90;
+  color: #000000;
   border-radius: 6px;
   cursor: pointer;
   font: 14px/1.2 system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
@@ -19,25 +19,15 @@ label {
 .controls { 
   margin: 10px 0 14px; 
 }
-.controls.years { 
-  margin-bottom: 18px; 
+.controls.years { margin-bottom: 18px; }
+
+.region { display: none; 
+}
+.region img { max-width: 280px; height: auto; margin: 8px; vertical-align: top; border-radius: 4px; 
+}
+.year { display: none; 
 }
 
-.region { 
-  display: none; 
-}
-
-.region img {
-  max-width: 280px;
-  height: auto;
-  margin: 8px;
-  vertical-align: top;
-  border-radius: 4px;
-}
-
-.year { 
-  display: none; 
-}
 
 #rIDF:checked ~ .graphs .rIDF { 
   display: block; 
@@ -45,10 +35,37 @@ label {
 #rARA:checked ~ .graphs .rARA { 
   display: block; 
 }
-#rC:checked   ~ .graphs .rC   { 
+#rCOR:checked   ~ .graphs .rCOR   { 
+  display: block; 
+}
+#rBRE:checked ~ .graphs .rBRE { 
+  display: block; 
+}
+#rNOR:checked ~ .graphs .rNOR { 
+  display: block; 
+}
+#rHDF:checked ~ .graphs .rHDF { 
+  display: block; 
+}
+#rGE:checked  ~ .graphs .rGE  { 
   display: block; 
 }
 #rBFC:checked ~ .graphs .rBFC { 
+  display: block; 
+}
+#rCVL:checked ~ .graphs .rCVL { 
+  display: block; 
+}
+#rPDL:checked ~ .graphs .rPDL { 
+  display: block; 
+}
+#rNA:checked ~ .graphs .rNA { 
+  display: block; 
+}
+#rOCC:checked ~ .graphs .rOCC { 
+  display: block; 
+}
+#rPAC:checked~ .graphs .rPAC{ 
   display: block; 
 }
 
@@ -56,7 +73,6 @@ label {
 .region .fixed { 
   display: inline-block; 
 }
-
 
 #y2014:checked ~ .graphs .y2014 { 
   display: inline-block; 
@@ -95,8 +111,56 @@ label {
   display: inline-block; 
 }
 
-.graphs {
-  display: block;
-  padding: 6px 0 24px;
+.graphs { 
+  display: block; padding: 6px 0 24px; 
 }
+
+
+
+.docGlobal img { 
+  max-width: 600px; 
+}
+
+.doc.year { 
+  display: none; 
+} 
+
+#y2014:checked ~ .graphs .doc.y2014 { 
+  display: inline-block; 
+}
+#y2015:checked ~ .graphs .doc.y2015 { 
+  display: inline-block; 
+}
+#y2016:checked ~ .graphs .doc.y2016 { 
+  display: inline-block; 
+}
+#y2017:checked ~ .graphs .doc.y2017 { 
+  display: inline-block; 
+}
+#y2018:checked ~ .graphs .doc.y2018 { 
+  display: inline-block; 
+}
+#y2019:checked ~ .graphs .doc.y2019 { 
+  display: inline-block; 
+}
+#y2020:checked ~ .graphs .doc.y2020 { 
+  display: inline-block; 
+}
+#y2021:checked ~ .graphs .doc.y2021 { 
+  display: inline-block; 
+}
+#y2022:checked ~ .graphs .doc.y2022 { 
+  display: inline-block; 
+}
+#y2023:checked ~ .graphs .doc.y2023 { 
+  display: inline-block; 
+}
+#y2024:checked ~ .graphs .doc.y2024 { 
+  display: inline-block; 
+}
+#y2025:checked ~ .graphs .doc.y2025 { 
+  display: inline-block; 
+}
+
+
 
