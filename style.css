@@ -1,33 +1,112 @@
 
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+
+body {
+  margin: 0;
+  font: 16px/1.5 system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  color: #e5e7eb;
+  background: #0f172a;
+}
+
 input { 
+  display: none; }
+
+.controls {
+  margin: 10px 0 14px;
+  padding: 4px 2px;
+  background: transparent;
+  border: none;
+}
+
+.controls.years { margin-bottom: 20px; }
+
+.controls label {
+  
+  display: inline-block;
+  padding: 8px 12px;
+  margin: 6px 8px 6px 0;
+  border-radius: 999px;
+  background: #1e293b;
+  color: #e5e7eb;
+  border: 1px solid #334155;
+  cursor: pointer;
+  user-select: none;
+}
+
+.controls label:hover { 
+  background: #243447; 
+}
+
+#rIDF:checked ~ .controls.regions label[for="rIDF"],
+#rARA:checked ~ .controls.regions label[for="rARA"],
+#rCOR:checked ~ .controls.regions label[for="rCOR"],
+#rBRE:checked ~ .controls.regions label[for="rBRE"],
+#rNOR:checked ~ .controls.regions label[for="rNOR"],
+#rHDF:checked ~ .controls.regions label[for="rHDF"],
+#rGE:checked  ~ .controls.regions label[for="rGE"],
+#rBFC:checked ~ .controls.regions label[for="rBFC"],
+#rCVL:checked ~ .controls.regions label[for="rCVL"],
+#rPDL:checked ~ .controls.regions label[for="rPDL"],
+#rNA:checked  ~ .controls.regions label[for="rNA"],
+#rOCC:checked ~ .controls.regions label[for="rOCC"],
+#rPAC:checked ~ .controls.regions label[for="rPAC"] {
+  background: #2b3b52;
+  border-color: #47607d;
+  font-weight: 600;
+}
+
+#y2014:checked ~ .controls.years   label[for="y2014"],
+#y2015:checked ~ .controls.years   label[for="y2015"],
+#y2016:checked ~ .controls.years   label[for="y2016"],
+#y2017:checked ~ .controls.years   label[for="y2017"],
+#y2018:checked ~ .controls.years   label[for="y2018"],
+#y2019:checked ~ .controls.years   label[for="y2019"],
+#y2020:checked ~ .controls.years   label[for="y2020"],
+#y2021:checked ~ .controls.years   label[for="y2021"],
+#y2022:checked ~ .controls.years   label[for="y2022"],
+#y2023:checked ~ .controls.years   label[for="y2023"],
+#y2024:checked ~ .controls.years   label[for="y2024"],
+#y2025:checked ~ .controls.years   label[for="y2025"] {
+  background: #2b3b52;
+  border-color: #47607d;
+  font-weight: 600;
+}
+
+.graphs { 
+  margin-top: 12px; 
+}
+
+.docGlobal {
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0 auto 18px;
+  text-align: center;
+}
+
+.region {
+  
+  display: none;
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0 auto 24px;
+  text-align: center;
+}
+
+.region img,
+.docGlobal img {
+  max-width: 1000px;
+  width: 100%;
+  height: auto;
+  margin: 10px auto;
+  border-radius: 6px;
+}
+
+.year { 
   display: none; 
 }
-
-
-label {
-  padding: 8px 14px;
-  margin: 4px 6px 8px 0;
-  background: #5f6f90;
-  color: #000000;
-  border-radius: 6px;
-  cursor: pointer;
-  font: 14px/1.2 system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-  user-select: none;
-  display: inline-block;
-}
-
-.controls { 
-  margin: 10px 0 14px; 
-}
-.controls.years { margin-bottom: 18px; }
-
-.region { display: none; 
-}
-.region img { max-width: 280px; height: auto; margin: 8px; vertical-align: top; border-radius: 4px; 
-}
-.year { display: none; 
-}
-
 
 #rIDF:checked ~ .graphs .rIDF { 
   display: block; 
@@ -35,7 +114,7 @@ label {
 #rARA:checked ~ .graphs .rARA { 
   display: block; 
 }
-#rCOR:checked   ~ .graphs .rCOR   { 
+#rCOR:checked ~ .graphs .rCOR { 
   display: block; 
 }
 #rBRE:checked ~ .graphs .rBRE { 
@@ -59,108 +138,54 @@ label {
 #rPDL:checked ~ .graphs .rPDL { 
   display: block; 
 }
-#rNA:checked ~ .graphs .rNA { 
+#rNA:checked  ~ .graphs .rNA  { 
   display: block; 
 }
 #rOCC:checked ~ .graphs .rOCC { 
   display: block; 
 }
-#rPAC:checked~ .graphs .rPAC{ 
+#rPAC:checked ~ .graphs .rPAC { 
   display: block; 
 }
 
-
-.region .fixed { 
-  display: inline-block; 
+.region .fixed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #y2014:checked ~ .graphs .y2014 { 
-  display: inline-block; 
+  display: block; 
 }
 #y2015:checked ~ .graphs .y2015 { 
-  display: inline-block; 
+  display: block; 
 }
 #y2016:checked ~ .graphs .y2016 { 
-  display: inline-block; 
+  display: block; 
 }
 #y2017:checked ~ .graphs .y2017 { 
-  display: inline-block; 
+  display: block; 
 }
 #y2018:checked ~ .graphs .y2018 { 
-  display: inline-block; 
+  display: block; 
 }
 #y2019:checked ~ .graphs .y2019 { 
-  display: inline-block; 
+  display: block; 
 }
 #y2020:checked ~ .graphs .y2020 { 
-  display: inline-block; 
+  display: block; 
 }
 #y2021:checked ~ .graphs .y2021 { 
-  display: inline-block; 
-}
+  display: block; }
 #y2022:checked ~ .graphs .y2022 { 
-  display: inline-block; 
+  display: block; 
 }
 #y2023:checked ~ .graphs .y2023 { 
-  display: inline-block; 
+  display: block; 
 }
 #y2024:checked ~ .graphs .y2024 { 
-  display: inline-block; 
+  display: block; 
 }
 #y2025:checked ~ .graphs .y2025 { 
-  display: inline-block; 
+  display: block; 
 }
-
-.graphs { 
-  display: block; padding: 6px 0 24px; 
-}
-
-
-
-.docGlobal img { 
-  max-width: 600px; 
-}
-
-.doc.year { 
-  display: none; 
-} 
-
-#y2014:checked ~ .graphs .doc.y2014 { 
-  display: inline-block; 
-}
-#y2015:checked ~ .graphs .doc.y2015 { 
-  display: inline-block; 
-}
-#y2016:checked ~ .graphs .doc.y2016 { 
-  display: inline-block; 
-}
-#y2017:checked ~ .graphs .doc.y2017 { 
-  display: inline-block; 
-}
-#y2018:checked ~ .graphs .doc.y2018 { 
-  display: inline-block; 
-}
-#y2019:checked ~ .graphs .doc.y2019 { 
-  display: inline-block; 
-}
-#y2020:checked ~ .graphs .doc.y2020 { 
-  display: inline-block; 
-}
-#y2021:checked ~ .graphs .doc.y2021 { 
-  display: inline-block; 
-}
-#y2022:checked ~ .graphs .doc.y2022 { 
-  display: inline-block; 
-}
-#y2023:checked ~ .graphs .doc.y2023 { 
-  display: inline-block; 
-}
-#y2024:checked ~ .graphs .doc.y2024 { 
-  display: inline-block; 
-}
-#y2025:checked ~ .graphs .doc.y2025 { 
-  display: inline-block; 
-}
-
-
-
