@@ -9,5 +9,7 @@ Une région est dite vertueuse si elle produit une part importante
 d’électricité renouvelable par rapport à sa consommation.
 
 ## Données utilisées
-- Consommation régionale d’électricité (RTE)
-- Production régionale par filière (RTE)
+- Energie_produite_mensuelle_par_moyen_par_region.csv (RTE)
+- Consommation_brute_mensuelle.csv (RTE)
+- Production_annuelle_par_region.csv (RTE)
+
